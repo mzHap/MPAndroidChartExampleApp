@@ -61,8 +61,6 @@
         app:layout_constraintTop_toBottomOf="@id/input1" />
 
     <!-- Bar Chart -->
-
-    <!-- Pie Chart -->
     <com.github.mikephil.charting.charts.BarChart
         android:id="@+id/barChart"
         android:layout_width="0dp"
@@ -75,6 +73,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/lineChart" />
 
+
+    <!-- Pie Chart -->
     <com.github.mikephil.charting.charts.PieChart
         android:id="@+id/pieChart"
         android:layout_width="0dp"

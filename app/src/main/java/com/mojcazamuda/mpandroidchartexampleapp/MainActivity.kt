@@ -47,21 +47,12 @@ class MainActivity : AppCompatActivity() {
         barChart.description.textSize=13f
 
 
-
-
         pieChart.setDrawEntryLabels(false)
         pieChart.legend.isEnabled = true
         pieChart.description.text = "Pie chart distribution of three values."
         pieChart.description.textSize=13f
 
 
-        /*lineChart.viewTreeObserver.addOnGlobalLayoutListener {
-            lineChart.description.setPosition(lineChart.width.toFloat(), lineChart.height.toFloat())
-        }
-
-        barChart.viewTreeObserver.addOnGlobalLayoutListener {
-            barChart.description.setPosition(barChart.width.toFloat(), barChart.height.toFloat())
-        }*/
         val textWatcher = object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
                 updateCharts(
