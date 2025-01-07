@@ -30,3 +30,6 @@ MPAndroidChart je licencirana pod **Apache License 2.0**. To pomeni, da jo lahko
 ---
 
 MPAndroidChart ostaja priljubljena izbira za vizualizacijo podatkov v Android aplikacijah, vendar je zaradi pomanjkanja rednih posodobitev in kopico odprith težav priporočljivo oceniti njeno primernost glede na vaše specifične potrebe in okolje.
+
+
+![demo](https://github.com/user-attachments/assets/9a5e40c1-3d73-4e67-95e1-5f22d8539e6a)
